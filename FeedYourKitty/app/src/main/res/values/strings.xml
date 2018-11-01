@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Feed Your Kitty!</string>
+    <string name="title_activity_highscore">Highscore</string>
+    <string name="action_settings">Enter Name</string>
+    <string name="title_activity_game">Game</string>
+    <string name="title_activity_enter_name">Enter Name</string>
+    <string name="string_start_game">Start Game</string>
+    <string name="string_highscores">Highscores</string>
+    <string name="string_load_menu">Menu</string>
+    <string name="string_bad_food">bad_food</string>
+    <string name="string_score">Score: XX</string>
+    <string name="string_time">Time: XX</string>
+    <string name="string_name">Name</string>
+    <string name="string_you_rock">You Rock!\nYou got XX Points!</string>
+</resources>

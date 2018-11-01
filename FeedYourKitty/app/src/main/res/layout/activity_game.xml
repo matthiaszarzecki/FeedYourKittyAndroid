@@ -1,0 +1,189 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="de.htw_berlin.gma.feedyourkitty.Game"
+    android:id="@+id/layout_game"
+    android:background="@drawable/bg_neutral">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/string_load_menu"
+        android:id="@+id/button_return_to_menu"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="LoadMenu" />
+
+    <ImageButton
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:id="@+id/game_button_00"
+        android:nestedScrollingEnabled="true"
+        android:onClick="ButtonClicked00"
+        android:layout_below="@+id/button_return_to_menu"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:longClickable="false"
+        android:maxHeight="96dp"
+        android:maxWidth="96dp"
+        android:minHeight="96dp"
+        android:minWidth="96dp"
+        android:src="@drawable/food_bad_01"
+        android:background="#00ffffff"
+        android:contentDescription="@string/string_bad_food" />
+
+    <ImageButton
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:id="@+id/game_button_01"
+        android:layout_alignTop="@+id/game_button_00"
+        android:layout_toRightOf="@+id/game_button_00"
+        android:layout_toEndOf="@+id/game_button_00"
+        android:onClick="ButtonClicked01"
+        android:background="#00ffffff"
+        android:maxHeight="96dp"
+        android:maxWidth="96dp"
+        android:minHeight="96dp"
+        android:minWidth="96dp"
+        android:src="@drawable/food_bad_01"
+        android:contentDescription="@string/string_bad_food" />
+
+    <ImageButton
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:id="@+id/game_button_02"
+        android:layout_alignTop="@+id/game_button_01"
+        android:layout_toRightOf="@+id/game_button_01"
+        android:layout_toEndOf="@+id/game_button_01"
+        android:onClick="ButtonClicked02"
+        android:background="#00ffffff"
+        android:minWidth="96dp"
+        android:minHeight="96dp"
+        android:maxWidth="96dp"
+        android:maxHeight="96dp"
+        android:src="@drawable/food_bad_01"
+        android:contentDescription="@string/string_bad_food" />
+
+    <ImageButton
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:id="@+id/game_button_03"
+        android:layout_below="@+id/game_button_00"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="ButtonClicked03"
+        android:background="#00ffffff"
+        android:minWidth="96dp"
+        android:minHeight="96dp"
+        android:maxWidth="96dp"
+        android:maxHeight="96dp"
+        android:src="@drawable/food_bad_01"
+        android:contentDescription="@string/string_bad_food" />
+
+    <ImageButton
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:id="@+id/game_button_04"
+        android:layout_alignTop="@+id/game_button_03"
+        android:layout_alignLeft="@+id/game_button_01"
+        android:layout_alignStart="@+id/game_button_01"
+        android:onClick="ButtonClicked04"
+        android:background="#00ffffff"
+        android:minHeight="96dp"
+        android:minWidth="96dp"
+        android:maxWidth="96dp"
+        android:maxHeight="96dp"
+        android:src="@drawable/food_bad_01"
+        android:contentDescription="@string/string_bad_food" />
+
+    <ImageButton
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:id="@+id/game_button_05"
+        android:layout_alignTop="@+id/game_button_04"
+        android:layout_alignLeft="@+id/game_button_02"
+        android:layout_alignStart="@+id/game_button_02"
+        android:onClick="ButtonClicked05"
+        android:background="#00ffffff"
+        android:maxHeight="96dp"
+        android:maxWidth="96dp"
+        android:minHeight="96dp"
+        android:minWidth="96dp"
+        android:src="@drawable/food_bad_01"
+        android:contentDescription="@string/string_bad_food" />
+
+    <ImageButton
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:id="@+id/game_button_06"
+        android:layout_below="@+id/game_button_03"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="ButtonClicked06"
+        android:background="#00ffffff"
+        android:minWidth="96dp"
+        android:minHeight="96dp"
+        android:maxWidth="96dp"
+        android:maxHeight="96dp"
+        android:src="@drawable/food_bad_01"
+        android:contentDescription="@string/string_bad_food" />
+
+    <ImageButton
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:id="@+id/game_button_07"
+        android:layout_alignTop="@+id/game_button_06"
+        android:layout_alignLeft="@+id/game_button_04"
+        android:layout_alignStart="@+id/game_button_04"
+        android:onClick="ButtonClicked07"
+        android:background="#00ffffff"
+        android:maxWidth="96dp"
+        android:maxHeight="96dp"
+        android:minHeight="96dp"
+        android:minWidth="96dp"
+        android:src="@drawable/food_bad_01"
+        android:contentDescription="@string/string_bad_food" />
+
+    <ImageButton
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:id="@+id/game_button_08"
+        android:onClick="ButtonClicked08"
+        android:layout_below="@+id/game_button_05"
+        android:layout_alignLeft="@+id/game_button_05"
+        android:layout_alignStart="@+id/game_button_05"
+        android:background="#00ffffff"
+        android:minWidth="96dp"
+        android:minHeight="96dp"
+        android:maxWidth="96dp"
+        android:maxHeight="96dp"
+        android:src="@drawable/food_bad_01"
+        android:contentDescription="@string/string_bad_food" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/string_score"
+        android:id="@+id/point_display"
+        android:textSize="22sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/string_time"
+        android:id="@+id/timer_display"
+        android:textSize="22sp"
+        android:layout_below="@+id/point_display"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#ffffffff" />
+
+</RelativeLayout>
